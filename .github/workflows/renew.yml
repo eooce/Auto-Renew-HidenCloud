@@ -3,7 +3,7 @@ name: Auto Renew HidenCloud
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 01 */2 * *' # 每隔 2 天运行一次（UTC 01:30，即北京时间 09:30）
+    - cron: '30 01 * * *' # 每天 UTC 01:30（北京时间 13:30）运行
 
 permissions:
   actions: write
