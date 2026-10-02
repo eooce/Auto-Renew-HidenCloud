@@ -1,6 +1,9 @@
 ## HidenCloud自动续期
 使用Github Actions 自动给HidenCloud服务续期,HidenCloud容易封多账号，隔离好环境,使用独享节点(仅自己一人使用的)
 
+
+温馨提示： HidenCloud已取消Remenber_web长效cookie，需要使用账号密码登录，需要过cloudflare验证，尽量使用干净点的节点，否则无法过验证。
+
 ## 配置
 
 在仓库 `Settings → Secrets and variables → Actions` 中添加以下 Secrets：
