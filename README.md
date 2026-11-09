@@ -23,10 +23,8 @@
 
 
 `DISCORD_TOKEN` 获取方式：浏览器登录 [discord.com](https://discord.com) → F12 打开开发者工具 → 网络(Network) → 刷新页面 → 点任意请求 → 请求头里 `Authorization` 字段的值（切勿泄露给他人）。
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/dd772127-f261-49d2-9bcc-91e73a3b14f2" />
 
-
-`COOKIE_VALUE`的获取如图(登录dashborad后F12或右键检查,选择 应用程序 或 Appcations 或 存储,左边找到cookie获取)
-<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/be28a597-eef8-481b-862d-cc98533a2e27" />
 
 
 ### 代理格式（确认在v2rayN里使用正常的节点,使用注册时使用的代理节点）
