@@ -29,6 +29,8 @@ jobs:
 
       - name: 🛠️ 安装系统依赖和python依赖
         run: |
+          sudo echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+          sudo echo "nameserver 1.1.1.1" | sudo tee /etc/resolv.conf -a > /dev/null
           sudo apt-get update
           sudo apt-get install -y xvfb
           pip install patchright requests 'requests[socks]'
